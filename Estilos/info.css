@@ -1,0 +1,206 @@
+body, html{
+  font-family: Franklin Gothic Book;
+  background-color: rgb(230,230,230);
+}
+
+.tituloa{
+  text-align: center;
+  width: 100%;
+}
+
+
+footer{   
+    font-family: Book Antiqua;    
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;    
+    padding: 5px;    
+    margin-bottom: 0;
+}
+
+/*-----------boton a inicio----------------*/
+#mySidenav a {
+  position: absolute;
+  left: -70px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #292929;
+}
+
+@media (max-width: 600px){
+  #about{
+      top: 5px;
+      left: 0;
+  }
+}
+
+/* slider */
+.padree{
+  
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 30px;
+}
+
+.tama{
+  width: 80%;
+  display: flex;
+  height: 500px;
+  float: left;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.conte{
+ 
+  background-color: rgba(14, 14, 14, 0.932);
+  justify-content: space-around;
+  margin-bottom: 390px;
+  position: relative;
+
+
+}
+
+@media (max-width:930px){
+  .tama{
+    width: 100%;
+  }
+
+}
+
+
+.subtussss{
+  color: rgb(255, 255, 255);
+}
+
+
+ol,ul,dl{
+  margin-bottom: 10px;
+}
+
+.foto{
+  object-fit: cover;
+}
+
+
+
+
+
+/* areas empresariales */
+
+.colormenu{
+ color: black;
+}
+
+
+.mision-vision{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(1, auto);
+}
+
+.titumv{
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font: weight 10px;
+}
+
+@media (max-width:760px){
+  .mision-vision{
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+@media (max-width:760px){
+  .misi-visi{
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mi-vi{
+      width: 90%;
+  }
+
+}
+
+.vision{
+  position: initial;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.contenido{
+  width: 100%;
+}
+
+.misi-visi{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(1, auto);
+}
+
+.mi-vi{
+  margin: 5px auto;
+  background: white;
+  border-radius: 6px;
+  width: 85%;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.contenido .m-v{
+  color: rgb(46, 46, 46);
+  font-family: Inter,Roobert,Helvetica Neue,Helvetica,Arial,sans-serif;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: inherit;
+  padding: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+/* responsive de la mision y la vision */
+@media (max-width:760px){
+  .misi-visi{
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .mi-vi{
+      width: 90%;
+  }
+
+}
+
+.vision{
+  position: initial;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+

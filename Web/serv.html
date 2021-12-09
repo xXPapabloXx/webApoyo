@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Apoyo Logístico</title>
+    <link rel="stylesheet" href="../Estilos/servicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../aos.js"></script>
+    <link href="../aos.css" rel="stylesheet">
+    <!-------------favicon---------------->
+    <link rel="icon"  href="../Imgs/Logo_1.png">
+</head>
+<body>
+    <!-------------navbar---------------->
+    <header data-aos="fade-down"> 
+
+        <div class="topnav" id="myTopnav">
+            <a class="aparte"> <img class="imagenbarra" src="../Imgs/Logo_1.png"></a>
+            <a href="../Web/info.html">Quienes Somos</a>
+            <a href="../Web/contacto.html">Contacto</a>
+            <a href="../Web/serv.html">Servicios</a>
+            <a href="../index.html">Inicio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+            
+    </header> 
+          
+<!--------------------Contenido----------------->
+
+
+<h2 style="text-align:center">Servicios</h2>
+
+<div class="padre"> 
+    <div class="card">
+        <img class="imgaa" src="../Imgs/Servicio/uno.png">
+
+        <h1>Manejo de mercancias</h1>
+
+        <p class="a">
+        -Calificacion de producto por diseño <br>
+        -Inventario inicial de la mercacia <br>
+        -Pre-inspeccion(en caso necesario) <br>
+        -Des-marquillar - re-marquillar <br>
+
+        <p class="a">
+            -Tiquetar<br>
+            -Doblar<br>
+            -Empacar<br>
+            -Inventario final por caja<br>
+            -Separacion de segundas<br>
+
+        </p>
+        <form action="contacto.html">
+            <button type="submit">Contacto</button>
+        </form>
+    </div>
+
+    <div class="card">
+    <img class="imgaa" src="../Imgs/Servicio/dos.png">
+    <h1>Servicios logisticos</h1>
+
+    <p class="a">
+    -Recepcion de mercancias <br>
+    -Inventario inicial de la mercancias <br>
+    -Identificacion y ubicacion de la mercancia <br>
+    -Despachos parciales <br>
+    -Picking y Packing <br>
+
+    <p class="a">
+    -Re-empaques<br>
+    -Entrega de informes periodicos<br>
+    -Recopilacion de datos para proceso de nacionalizacion<br>
+
+    </p>
+
+    <form action="contacto.html">
+        <button type="submit">Contacto</button>
+    </form>
+    </div>
+    <div class="card">
+        <img class="imgaa" src="../Imgs/Servicio/tag.png">
+        <h1>Rotulos etiquetas y marquillas</h1>
+    
+        <p class="a">
+        -Lineas de produccion de etiquetas <br>
+        -Ropa infantil,adultos <br>
+        -Accesorios <br>
+        -Ropa interior  <br>
+        -Calzado <br>
+    
+        <p class="a">
+        -Jugueteria<br>
+        -Bisuteria<br>
+        -Etiquetado<br>
+        -Grado Alimenticio<br>
+        -Empacado de mercancia en general<br>
+    
+        </p>
+        <form action="contacto.html">
+        <button type="submit">Contacto</button>
+        </form>
+        </div>
+</div>
+    
+    
+    <footer>
+        <p>&#169;2021. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        AOS.init({duration: 800});
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
