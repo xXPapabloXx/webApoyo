@@ -87,6 +87,7 @@
     max-width: 300px;
     margin: auto;
     overflow: hidden;
+    border-radius: 7px;
     text-align: center;
     font-family: arial;
   }
