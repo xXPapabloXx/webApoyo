@@ -3,118 +3,437 @@
 <head>
     <meta charset="UTF-8">
     <title>Apoyo Logístico</title>
-    <link rel="stylesheet" href="../Estilos/info.css">
-   
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="../aos.js"></script>
     <link href="../aos.css" rel="stylesheet">
+     <!--estilos -->
+	 <link href="../css/bootstrap.min.css" rel="stylesheet">
+	 <link href="../js/owl-carousel/owl.carousel.css" rel="stylesheet">
+	 <link href="../js/owl-carousel/owl.transitions.css" rel="stylesheet">
+	 <link href="../css/magnific-popup.css" rel="stylesheet">
+	 <link href="../css/slider.css" type="text/css"  rel="stylesheet"/>
+	 <link rel="stylesheet" href="../Estilos/info.css">
     <!-------------favicon---------------->
     <link rel="icon"  href="../Imgs/Logo_1.png">
 
 <body>
 <br>
 
-    <h1 data-aos="fade-down" class="tituloa">Eventos Anuales</h1>
-    <br>
+    <!-------------navbar---------------->
+    <header data-aos="fade-down" class="encima"> 
 
-    <div id="mySidenav" class="sidenav">
-        <a href="../index.html" id="about">Inicio</a>
-    </div>
-<div class="padree">
-    <div id="demo" class="tama carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
-
-        <div class="carousel-inner">
-            <div class=" carousel-item active">
-                <img class="foto" src="../Imgs/inicio/arb.jpg" alt="Los Angeles" width="100%" height="500">
-                <div class="conte carousel-caption">
-                    <h3 class="subtussss">Diciembre</h3>
-                </div>   
-            </div>
-            <div class=" carousel-item ">
-                <img class="foto" src="../Imgs/inicio/arbol.jpg" alt="Los Angeles" width="100%" height="500">
-                <div class="conte carousel-caption">
-                    <h3 class="subtussss">Octubre</h3>
-                </div>   
-            </div>
+        <div class="topnav" id="myTopnav">
+            <a class="aparte"> <img class="imagenbarra" src="../Imgs/Logo_2.png"></a>
+            <a class="itm" href="../Web/info.html">Quienes Somos</a>
+            <a class="itm" href="../Web/contacto.html">Contacto</a>
+            <a class="itm" href="../Web/serv.html">Servicios</a>
+            <a class="itm" href="../index.html">Inicio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
         </div>
+        
+    </header> 
 
 
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+   <!--Start portfolio--> 
+   <section id="works" class="section">
+	<!-- Filtering -->
+	  <div class="title-box text-center">
+		<h2 class="title">Eventos Anuales APOYO LOGISTICO ZF</h2>
+	 </div>
 
-    </div> 
-</div>
 
-<h1 data-aos="fade-down" class="tituloa">Areas Empresariales</h1>
+		<div class=" col-md-12 text-center">
+			<!-- Filtering -->
+			<ul class="filtering">
+				<li class="filter" data-filter="all">En general</li>
+				<li class="filter" data-filter="event">Diciembre</li>
+				<li class="filter" data-filter="corporate">Octubre</li>
+				<li class="filter" data-filter="wedding">Trabajo</li>
+			</ul>
+		</div>
+
+	
+	<div class="work-main">
+		<!-- Work Grid -->
+		<ul class="work-grid">
+			
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/5.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/5.jfif" class="popup-image">
+							<i class="iconono fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->
+
+					<div class="work-caption">
+						<h4>dia de los brujitoss</h4>
+					</div>
+
+				</div> 
+			</li> 
+			<!--End Work Item -->
+			
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix wedding">
+				<div class="work-image">
+					<img src="../Imgs/inicio/Carrusel/4.jpg" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/inicio/Carrusel/4.jpg" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->
+					
+					<div class="work-caption">
+						 <h4>trabajo</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+			
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/1.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/1.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->					
+
+					<div class="work-caption">
+						<h4>dia de los brujitos</h4>
+					</div>
+
+				</div> 
+			</li> 
+			
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/2.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/2.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->						
+
+					<div class="work-caption">
+						<h4>dia de los brujitos</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+			
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix wedding">
+				<div class="work-image">
+					<img src="../Imgs/inicio/Carrusel/2.jpg" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/inicio/Carrusel/2.jpg" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->						
+
+					<div class="work-caption">
+						<h4>trabajo</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+			
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix wedding">
+				<div class="work-image">
+					<img src="../Imgs/inicio/Dos/IMG_20210320_123239.jpg" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/inicio/Dos/IMG_20210320_123239.jpg" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->						
+
+					<div class="work-caption">
+						<h4>trabajo</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix event">
+				<div class="work-image">
+					<img src="../Imgs/inicio/arb.jpg" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/inicio/arb.jpg" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->		
+
+					<div class="work-caption">
+						 <h4>Diciembre</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix event">
+				<div class="work-image">
+					<img src="../Imgs/octubre/8.jfif" alt="thumbnail">
+			
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/8.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->		
+			
+					<div class="work-caption">
+						<h4>Diciembre</h4>
+					</div>
+			
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix event">
+				<div class="work-image">
+
+					<video width="100%" controls>
+					    <source src="../Imgs/novena.mp4">
+				    </video>
+			
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/3.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/3.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->
+					
+					 <div class="work-caption">
+						 <h4>dia de los brujitos</h4>
+					 </div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix event">
+				<div class="work-image">
+					<img src="../Imgs/octubre/7.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/7.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->					
+
+					<div class="work-caption">
+						<h4>diciembre</h4>
+					</div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix wedding">
+				<div class="work-image">
+					<img src="../Imgs/inicio/algo.jpg" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/inicio/algo.jpg" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->
+
+					 <div class="work-caption">
+						 <h4>trabajo</h4>
+					 </div>
+
+				</div>
+			</li> 
+			<!--End Work Item -->
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/6.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/6.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->
+
+					 <div class="work-caption">
+						 <h4>dia de los brujitos</h4>
+					 </div>
+
+				</div> 
+			</li> 
+
+			<!-- Work Item -->
+			<li class="work-item thumnail-img mix corporate">
+				<div class="work-image">
+					<img src="../Imgs/octubre/4.jfif" alt="thumbnail">
+
+					<!--link modal-->
+					<div class="hover-link">
+						<a href="../Imgs/octubre/4.jfif" class="popup-image">
+							<i class="fa fa-search-plus"></i>
+						</a>
+					</div>
+					<!--link modal-->					
+
+					 <div class="work-caption">
+						 <h4>dia de los brujitos</h4>
+					 </div>
+
+				</div>
+			</li> 
+
+			<!--End Work Item -->
+		</ul>
+		
+	</div>
+</section>
+<!--End portfolio-->
+<br>
+<br>
+<br>
+<br>
+<h1 class="tituloa">Areas Empresariales</h1>
+<br>
+<br>
 	<section class="contenido" >
 		<div class="mision-vision">
 			<div id="mi-vi" class="mi-vi">
-			    <div class="titumv">Area Tecnica</h1></div>
+			    <div class="titumv">área técnica</h1></div>
 				<p class="m-v">Es el área encargada de dar soporte y seguridad a todos los sistemas informáticos de la empresa, garantizando así la no vulneración de la información interna y documentación confidencial de la empresa y de brindar soluciones oportunas a los problemas técnicos que puedan presentarse en la cotidianidad laboral del personal administrativo.</p>
 			</div>
 			<div class="mi-vi">
-				<div class="titumv">Area Administrativa</h1></div>
+				<div class="titumv">área administrativa</h1></div>
 				<p class="m-v">Es una subárea de recursos humanos encargada de realizar los pagos de nómina, afiliaciones, pagos de seguridad social, pagos de facturas a proveedores y realizar los cobros a los clientes de la empresa.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Area Recursos Humanos</h1></div>
+				<div class="titumv">área recursos humanos</h1></div>
 				<p class="m-v"> Es el área encargada de potenciar el recurso humano de la empresa en búsqueda de una mayor productividad a través de la gestión de formación, clima organizacional, desempeño, reclutamiento y selección y prevención de riesgos laborales </p>
 			</div>
             <div class="mi-vi">
-                <div class="titumv">Area Operativa Confecciones</h1></div>
+                <div class="titumv">área operativa confecciones</h1></div>
 				<p class="m-v">el área donde se realizan todos los procesos de confección de prendas y demás operaciones textiles correspondientes al ejercicio operativo de confecciones.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Gerencia</h1></div>
+				<div class="titumv">gerencia</h1></div>
 				<p class="m-v">Es el área principal, la cual se encarga de liderar todos los procesos del área operativa maquila y gestionar todo aquello relevante a los negocios de la empresa y nuevos clientes.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Subjerencia</h1></div>
+				<div class="titumv">subjerencia</h1></div>
 				<p class="m-v">Es una de las áreas más importantes de la empresa, ya que se encarga de liderar todos los procesos del área operativa de confecciones, uno de los principales músculos financieros de la empresa.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Recepcion</h1></div>
+				<div class="titumv">recepcion</h1></div>
 				<p class="m-v">Es el área que realiza el ingreso y salida de personal, clientes, proveedores, contratistas y mercancía de manera formal bajo estándares de seguridad definidos por la empresa.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Mantenimiento</h1></div>
+				<div class="titumv">mantenimiento</h1></div>
 				<p class="m-v">
                     Es el área que realiza todos los procesos preventivos a las máquinas de confección interviniendo aquellas que presenten fallas ya sea en su funcionamiento o en el sistema eléctrico, además de apoyar en labores de plomería y asociadas a los conocimientos del mecánico de la empresa.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Area Operativa Maquila</h1></div>
+				<div class="titumv">área operativa maquila</h1></div>
 				<p class="m-v">Es el área que ejecuta todos los procesos de etiquetado, marquillado, empaque, termofijación y demás procesos de manufactura que subyacen a la actividad operativa de maquila.</p>
 			</div>
             <div class="mi-vi">
-				<div class="titumv">Seguridad Social en el Trabajo</h1></div>
+				<div class="titumv">seguridad social en el trabajo</h1></div>
 				<p class="m-v">Es el área encargada de potenciar el recurso humano de la empresa en búsqueda de una mayor productividad a través de la gestión de formación, clima organizacional, desempeño, reclutamiento y selección y prevención de riesgos laborales.</p>
 			</div>
-
-
-            
 
 		</div>
 	</section>
 
-    <script>
-        AOS.init({duration: 800});
-    </script>
+	    <!-------------footer---------------->
+
+
+ 
+	<!-- responsive de navbar -->
+	<script>
+		AOS.init({duration: 800});
+	
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			x.className += " responsive";
+			} else {
+			x.className = "topnav";
+			}
+		}
+		</script>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="../js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="../js/easing.js"></script>
+    <script type="text/javascript" src="../js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="../js/jquery.appear.js"></script>
+    <script type="text/javascript" src="../js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="../js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="../js/custom.js"></script>
 
 </body>
 </html>
