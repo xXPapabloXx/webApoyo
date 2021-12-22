@@ -287,9 +287,23 @@ input[type=text], select, textarea {
     }
 }
 
-.footer{
+/*------------------footer----------------*/
+
+.footer{   
+
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.938);
+  width: 100%;
+  margin-top: 40px;
   text-align: center;
-} 
+  font-weight: 500;    
+  padding: 10px;    
+  margin-bottom: 0;
+}
+
+footer{
+padding: 4px;
+}
 
 /* logo animado */
 
@@ -309,8 +323,9 @@ input[type=text], select, textarea {
   margin: auto;
   background: url("../imgs/Logo_1.png") no-repeat 50%/70% rgba(255, 255, 255, 0.555);
   color: #000000;
-  box-shadow: inset 0 0 0 1px rgba(56, 236, 95, 0.5);
+  box-shadow: inset 0 0 0 1px rgb(68, 255, 30);
 }
+
 .bb::before, .bb::after {
   content: "";
   z-index: -1;
@@ -322,7 +337,7 @@ input[type=text], select, textarea {
   animation-delay: -4s;
 }
 .bb:hover::after, .bb:hover::before {
-  background-color: rgba(79, 228, 128, 0.3);
+  background-color: rgba(79, 228, 183, 0.3);
 }
 
 @keyframes clipMe {
@@ -348,7 +363,7 @@ body {
 body {
   position: relative;
   font-family: Franklin Gothic Book;
-  background-color: #F5F5F5;
+  background-color: #f0eeee;
   margin: 0;
   padding: 0;
 }
@@ -381,4 +396,16 @@ body {
   .bb{
     display: none;
   }
+}
+
+/* scroll */
+
+::-webkit-scrollbar{
+  width: 11px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(15, 15, 15, 0.726);
+  border-radius: 2px;
+
 }

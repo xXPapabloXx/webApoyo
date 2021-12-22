@@ -8,16 +8,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../js/bostrap/bootstrap.min.css">
+    <script src="../js/bostrap/jquery.min.js"></script>
+    <script src="../js/bostrap/popper.min.js"></script>
+    <script src="../js/bostrap/bootstrap.min.js"></script>
     <script src="../aos.js"></script>
     <link href="../aos.css" rel="stylesheet">
     <!-------------favicon---------------->
     <link rel="icon"  href="../Imgs/Logo_1.png">
     <!-------------estilos---------------->
-    <link rel="stylesheet" href="../Estilos/servicio.css">
+    <link rel="stylesheet" href="../Estilos/servicio.css"> 
+    <script src="../js/scrollreveal.js"></script>
 
 </head>
 <body>
     <!-------------navbar---------------->
+
     <header data-aos="fade-down"> 
 
         <div class="topnav" id="myTopnav">
@@ -32,90 +38,158 @@
         </div>
         
     </header> 
+        
           
     <!--------------------Contenido----------------->
 
-
-    <h2 class="princi" style="text-align:center">Servicios</h2>
-
+    <br>
+    <h2 class="princi" >Servicios</h2>
+    <br>
     <div class="padre"> 
-        <div class="card">
+
+        <div class="cardo uno">
             <img class="imgaa" src="../Imgs/Servicio/uno.png">
 
-            <h1 class="tituloo">manejo de mercancía</h1>
-
+            <h1 class="tituloo">Manejo de mercancía</h1>
+            <br>
             <p class="a">
-                <i class="faaa fa fa-check"></i> Calificación de producto por diseño <br>
-                <i class="faaa fa fa-check"></i> Inventario inicial de la mercancía <br>
-                <i class="faaa fa fa-check"></i> Pre-inspección (en caso necesario) <br>
-                <i class="faaa fa fa-check"></i> Des-marquillar - re-marquillar <br>
+                Logística en su planeación, coordinación, manejo, transporte, almacenaje y custodia de cualquier tipo de mercancía.
+
             </p>
 
-            <p class="a">
-                <i class="faaa fa fa-check"></i> Tiquetar<br>
-                <i class="faaa fa fa-check"></i> Doblar<br>
-                <i class="faaa fa fa-check"></i> Empacar<br>
-                <i class="faaa fa fa-check"></i> Inventario final por caja<br>
-                <i class="faaa fa fa-check"></i> Separación de segundas<br>
-            </p>
-
-            <form action="contacto.html">
-                <button type="submit">Contacto</button>
-            </form>
+            <button type="submit" class="nuestro" data-toggle="modal" data-target="#myModal">Nuestros Servicios</button>
+    
         </div>
 
-        <div class="card">
+        <div class="cardo dos">
             <img class="imgaa" src="../Imgs/Servicio/dos.png">
-            <h1 class="tituloo">servicios <br> logísticos</h1>
-
+            <h1 class="tituloo">Servicios <br> logísticos</h1>
+            <br>
             <p class="a">
-                <i class="faaa fa fa-check"></i> Recepción de mercancías <br>
-                <i class="faaa fa fa-check"></i> Inventario inicial de la mercancía <br>
-                <i class="faaa fa fa-check"></i> Identificación y ubicación de la mercancía <br>
-                <i class="faaa fa fa-check"></i> Despachos parciales <br>
-                <i class="faaa fa fa-check"></i> Picking y Packing <br>
+                Prestación de servicios logísticos en la contratación o tercerización de las actividades correspondientes a la logística la cual se necesita para la ejecución de lo planificado
             </p>
 
-            <p class="a">
-                <i class="faaa fa fa-check"></i> Re-empaques <br>
-                <i class="faaa fa fa-check"></i> Entrega de informes periódicos <br>
-                <i class="faaa fa fa-check"></i> Recopilación de datos para proceso de nacionalización <br>
-            </p>
+            <button type="submit" class="nuestro" data-toggle="modal" data-target="#myModal2">Nuestros Servicios</button>
 
-            <form action="contacto.html">
-                <button type="submit">Contacto</button>
-            </form>
         </div>
 
-        <div class="card">
+        <div class="cardo tres">
             <img class="imgaa" src="../Imgs/Servicio/tag.png">
             <h1 class="tituloo">Rótulos etiquetas <br> y marquillas</h1>
-        
+            <br>
             <p class="a">
-                <i class="faaa fa fa-check"></i> Líneas de producción de etiquetas <br>
-                <i class="faaa fa fa-check"></i> Ropa infantil, adultos <br>
-                <i class="faaa fa fa-check"></i> Accesorios <br>
-                <i class="faaa fa fa-check"></i> Ropa interior  <br>
-                <i class="faaa fa fa-check"></i> Calzado <br>
-            </p>
-        
-            <p class="a">
-                <i class="faaa fa fa-check"></i> Juguetería <br>
-                <i class="faaa fa fa-check"></i> Bisutería <br>
-                <i class="faaa fa fa-check"></i> Etiquetado <br>
-                <i class="faaa fa fa-check"></i> Grado Alimenticio <br>
-                <i class="faaa fa fa-check"></i> Empacado de mercancia en general <br>
+                un título o indicación breve pero precisa, que sirve para identificar un sitio o un contenido, siendo muy importante para diferenciar una cosa de otra. Con comercializacion nacional<br>
             </p>
 
-            <form action="contacto.html">
-                <button type="submit">Contacto</button>
-            </form>
+            <button type="submit" class="nuestro" data-toggle="modal" data-target="#myModal3"><Nav>Nuestros Servicios</Nav></button>
+
         </div>
     </div>
 
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+                 <h4 class="col-auto modal-title text-center">Manejo de mercancía</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p><i class="iconoa fa fa-check"></i> Calificación de producto por diseño</p>
+                <p><i class="iconoa fa fa-check"></i> Inventario inicial de la mercancía</p>
+                <p><i class="iconoa fa fa-check"></i> Pre-inspección (en caso necesario)</p>
+                <p><i class="iconoa fa fa-check"></i> Des-marquillar, re-marquillar</p>
+                <p><i class="iconoa fa fa-check"></i> Tiquetar</p>
+                <p><i class="iconoa fa fa-check"></i >Doblar</p>
+                <p><i class="iconoa fa fa-check"></i> Empacar</p>
+                <p><i class="iconoa fa fa-check"></i> Inventario final por caja</p>
+                <p><i class="iconoa fa fa-check"></i>  Separación de segundas</p>
+            </div>
+        
+            <!-- Modal footer -->
+             <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Atras</button>
+                <a class="btn btn-primary" href="contacto.html" role="button"><i class="fas fa-sign-out-alt"></i></i> Contacto</a>
+            </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal2 -->
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+                 <h4 class="modal-title">Servicios logísticos</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p><i class="iconoa fa fa-check"></i> Recepción de mercancías</p>
+                <p><i class="iconoa fa fa-check"></i> Inventario inicial de la mercancía</p>
+                <p><i class="iconoa fa fa-check"></i> Identificación y ubicación de la mercancía</p>
+                <p><i class="iconoa fa fa-check"></i> Despachos parciales</p>
+                <p><i class="iconoa fa fa-check"></i> Picking y packing</p>
+                <p><i class="iconoa fa fa-check"></i> Re-empaques</p>
+                <p><i class="iconoa fa fa-check"></i> Entrega de informes periódicos</p>
+                <p><i class="iconoa fa fa-check"></i> Recopilación De datos para proceso de nacionalización</p>
+            </div>
+        
+            <!-- Modal footer -->
+             <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Atras</button>
+                <a class="btn btn-primary" href="contacto.html" role="button"><i class="fas fa-sign-out-alt"></i></i> Contacto</a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal3 -->
+    <div class="modal fade" id="myModal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="as modal-header">
+                 <h4 class="modal-title">Rótulos etiquetas y marquillas</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+        
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p><i class="iconoa fa fa-check"></i> Lineas de producción de etiquetas </p>
+                <p><i class="iconoa fa fa-check"></i> Ropa infantil, adultos </p>
+                <p><i class="iconoa fa fa-check"></i> Accesorios</p>
+                <p><i class="iconoa fa fa-check"></i> Ropa interior</p>
+                <p><i class="iconoa fa fa-check"></i> Calzado</p>
+                <p><i class="iconoa fa fa-check"></i> Juguetería</p>
+                <p><i class="iconoa fa fa-check"></i> Bisutería</p>
+                <p><i class="iconoa fa fa-check"></i> Etiquetado</p>
+                <p><i class="iconoa fa fa-check"></i> Grado alimenticio</p>
+                <p><i class="iconoa fa fa-check"></i> Empacado de mercancia en general</p>
+            </div>
+        
+            <!-- Modal footer -->
+             <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Atras</button>
+                <a class="btn btn-primary" href="contacto.html" role="button"><i class="fas fa-sign-out-alt"></i></i> Contacto</a>
+            </div>
+        
+            </div>
+        </div>
+    </div>
     
     <footer>
-        <p class="footer">&#169;2021. Todos los derechos reservados.</p>
+        <p class="footer">&#169; 2021. Todos los derechos reservados.</p>
     </footer>
 
 
@@ -136,5 +210,8 @@
 
     </script>
 
+    <script src="../js/animaciones.js"></script>
+
 </body>
 </html>
+

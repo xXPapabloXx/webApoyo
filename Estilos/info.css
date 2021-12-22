@@ -9,6 +9,7 @@ body, html{
   overflow-x: hidden;
   font-family: Franklin Gothic Book;
   position: relative;
+
 }
 
 .tituloa{
@@ -223,6 +224,42 @@ footer{
   height: auto;
 }
 
+/*------------------footer----------------*/
 
+.footer{   
 
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.938);
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;    
+  padding: 10px;    
+  margin-bottom: 0;
+}
+
+footer{
+padding: 4px;
+color: white;
+}
+
+.audioo{
+height: 200px;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+/* scroll */
+
+::-webkit-scrollbar{
+  width: 11px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(15, 15, 15, 0.726);
+  border-radius: 2px;
+
+}
 
