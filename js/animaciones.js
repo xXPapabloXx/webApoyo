@@ -49,43 +49,7 @@ sr.reveal('.tres',{
 });
 
 sr.reveal('.e',{
-    duration: 500
-});
-
-sr.reveal('.f',{
     duration: 1000
-});
-
-sr.reveal('.g',{
-    duration: 1500
-});
-
-sr.reveal('.h',{
-    duration: 2000
-});
-
-sr.reveal('.i',{
-    duration: 2500
-});
-
-sr.reveal('.j',{
-    duration: 3000
-});
-
-sr.reveal('.k',{
-    duration: 3500
-});
-
-sr.reveal('.l',{
-    duration: 4000
-});
-
-sr.reveal('.m',{
-    duration: 4500
-});
-
-sr.reveal('.n',{
-    duration: 5000
 });
 
 sr.reveal('.mi-vi',{

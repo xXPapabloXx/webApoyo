@@ -24,7 +24,7 @@
         <div class="topnav" id="myTopnav">
             <a class="aparte"> <img class="imagenbarra" src="../Imgs/Logo_2.png"></a>
             <a class="itm" href="../Web/info.html">Quienes Somos</a>
-            <a class="itm" href="../Web/contacto.html">Contacto</a>
+            <a class="itm" href="../Web/contacto.php">Contacto</a>
             <a class="itm" href="../Web/serv.html">Servicios</a>
             <a class="itm" href="../index.html">Inicio</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -42,20 +42,20 @@
             
             <div class="container">
                 <h4 class="t">Formulario de contacto</h4> 
-                <form class="login" method="POST">
-                <label for="fname">Ingrese su nombre completo</label>
-                <input type="text" name="name" >
-            
-                <label for="lname">Ingrese su correo</label>
-                <input type="text" name="email" >
-            
-                <label for="country">Digite su asunto</label>
-                <input type="text" name="subject" >
-
-                <label for="subject">Ingrese su mensaje</label>
-                <textarea  name="message"  style="height:120px"></textarea>
+                <form class="login" action="enviar.php" method="POST">
+                    <label for="fname">Ingrese su nombre completo</label>
+                    <input type="text" name="name" >
                 
-                <input type="submit" value="ENVIAR">
+                    <label for="lname">Ingrese su correo</label>
+                    <input type="text" name="email" >
+                
+                    <label for="country">Digite su asunto</label>
+                    <input type="text" name="subject" >
+
+                    <label for="subject">Ingrese su mensaje</label>
+                    <textarea  name="message"  style="height:120px"></textarea>
+                    
+                    <input type="submit" value="ENVIAR">
                 </form>
             </div>
         </div>
@@ -77,6 +77,10 @@
                 <div class="horario">
                     <h6 class="h6">Horario de atención</h6>
                     <p class="pa">Lunes a viernes: 10 am.  a 5pm. <br> sabados y domingos: 10 am. a 2 pm.</p>
+                </div>
+                <div class="horario">
+                    <h6 class="h6">901.080.526-2</h6>
+                    <p class="pa">NIT</p>
                 </div>
                 <div class="sede">
                     <h6 class="h6">Dirreccion</h6>
